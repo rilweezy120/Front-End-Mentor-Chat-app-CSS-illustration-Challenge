@@ -5,7 +5,6 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 ## Table of contents
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -22,15 +21,11 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - Accessibiity optimized for every user
 
-### Screenshot
-
-![](./screenshot.jpg)
-
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://rilweezy120.github.io/Front-End-Mentor-Chat-app-CSS-illustration-Challenge/
+- Live Site URL: https://rilweezy120.github.io/Front-End-Mentor-Chat-app-CSS-illustration-Challenge/
 
 ## My process
 
