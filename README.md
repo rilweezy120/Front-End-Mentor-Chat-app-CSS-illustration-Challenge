@@ -54,8 +54,8 @@ I would continue developing my skills maybe taking on projects that incorprate j
 
 ## Author
 
-- Github - [Umar Rilwan](https://github.com/rilweezy120)
-- Frontend Mentor - [@rilweezy120](https://www.frontendmentor.io/profile/rilweezy120)
+- Github - [Umar Rilwan] (https://github.com/rilweezy120)
+- Frontend Mentor - [@rilweezy120] (https://www.frontendmentor.io/profile/rilweezy120)
 
 
 ## Acknowledgments
