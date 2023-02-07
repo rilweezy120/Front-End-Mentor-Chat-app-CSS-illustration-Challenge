@@ -1,0 +1,406 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: .05px;
+   
+}
+
+i{
+   font-size: 9.5px;
+   color: white;
+}
+
+/* img{
+    width: 20px;
+    border-radius: 100%;
+} */
+
+.app_body{
+    background:hsl(270, 20%, 96%);
+    z-index: -999;
+    position: relative;
+}
+
+.chat_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: linear-gradient(to left,hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    width: 100%;
+    border-radius: 12px 12px 3px 3px ;
+    padding: 12.5px 2px;
+
+    /* padding: 15px 13px; */
+}
+
+.back-btn{
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.details-info{
+    display: inline-flex;
+    justify-content: space-around;
+    transform: translate(-27.5px, 5.5px);
+}
+
+.more-options{
+    display: inline-flex;
+    transform: translate(-12.5px, 19px);
+}
+
+.details_img>img{
+    border-radius: 100%;
+    width: 20px;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid white;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+
+.details_profile{
+    margin-left: 3.5px;
+    margin-top: 7px;
+}
+
+.details_profile_name{
+    color: white;
+    font-size: larger;
+    font-weight: 400;
+}
+
+.details_profile_desc{
+    color: hsl(276, 100%, 81%);
+    font-size: 7.5px;
+}
+/* .details-info, .more-options,.back-btn{
+transform: translate(0px,6px);
+} */
+
+
+.chat-1, .chat-2, .chat-3{
+    background:  hsl(274, 51%, 92%);
+    width: 56%;
+    border: 1px solid hsl(274, 51%, 92%);
+    border-radius: 7.5px 7.5px 7.5px 3.5px;
+    margin: 8px 0;
+    margin-left: 6px;
+    font-size: 7.4px;
+    color: hsl(276, 55%, 52%);
+    /* line-height: 1.4em; */
+}
+
+.chat_details{
+    width: 87%;
+    margin: 4px 3px;
+}
+
+.dog-row{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: 6px;
+   
+}
+#dog-img{
+    width: 17%;
+    border-radius: 20%;
+    margin-right: 8.5px;
+    margin-bottom: 2px;
+    /* align-items: end; */
+}
+
+.reply-1{
+    background: white;
+    width: 58%;
+    border: 1px solid hsl(270, 20%, 96%);
+    border-radius: 7.5px 7.5px 7.5px 3px;
+    margin: 6px 0;
+    transform: translate(80px,0);
+    font-size: 8px;
+    color: hsl(271, 15%, 43%);
+    /* margin-left: 20px;
+     */
+}
+
+.reply-2{
+    width: 37%;
+    font-size: 8px;
+    background: white;
+    border: 1px solid hsl(270, 20%, 96%);
+    border-radius: 7.5px 7.5px 7.5px 3.5px;
+    margin: 6.5px 0;
+    transform: translate(122px,0);
+    color: hsl(271, 15%, 43%);
+}
+
+.reply_details{
+    width: 94%;
+    margin: 4px 3.5px;
+}
+
+.price-1, .price-2{
+    background: linear-gradient(to right,hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    width: 68.5%;
+    /* border: 1px solid hsl(270, 20%, 96%); */
+    border-radius:7.5px 7.5px 7.5px 3.5px;
+    margin: 7.5px 0;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 6px;
+}
+
+.price-info{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.price-desc{
+    font-size: 7.2px;
+    color:  hsl(270, 20%, 96%);
+    opacity: 0.7;
+    margin-top: 2px;
+    margin-left: 9px;
+}
+
+.price{
+    color: white;
+    font-size: 11.5px;
+    margin-right: 10px;
+    font-weight: 600;
+
+}
+
+
+input{
+    width: 91%;
+    border-radius: 25px;
+    padding: 9px;
+    border: 1px solid hsl(270, 20%, 96%);
+    margin-left: 6px;
+    font-size:  7px;
+    height: 34px;
+}
+
+::placeholder{
+    margin-left: 20px;
+    color: hsl(206, 6%, 79%);
+    transform: translate(8px,0);
+}
+
+
+.left_div{
+    position: fixed;
+    width: 300px;
+    height: 88vh;
+    background: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    z-index: -100;
+    border-radius: 0 0 180px 160px;
+    padding-bottom: 10px;
+    top: 0;
+    left: 0;
+}
+
+.main-chat_screen{
+    max-width: 240px;
+    height: 75.5vh;
+    border-radius: 22px;
+    padding: 0.1px 0;
+    border: 1px solid hsl(270, 20%, 96%);
+    position: fixed;
+    top: 90px;
+    left: 240px;
+    font-size: 10px;
+    font-weight: 300;
+    background:hsl(0, 0%, 100%);
+}
+
+.secondary_screen{
+   width: 210px;
+    height: 72.5vh;
+    border-radius: 15px;
+    padding: 2px;
+    /* border: 1px solid hsl(270, 20%, 96%); */
+    border: none;
+    margin: 6.5px;
+    background: hsl(270, 20%, 96%);
+}
+
+.right_div{
+    background: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+   /* background: hsl(270, 3%, 76%); */
+   position: fixed;
+   width: 320px;
+   height: 82vh;
+   z-index: 5;
+   border-radius: 180px 160px 0px 0px;
+   padding-bottom: 10px;
+   bottom: 0;
+   right: 0;
+   opacity: 0.03;
+   z-index: -2000;
+}
+.app_text{
+    position: fixed;
+    /* text-align: center;
+    justify-content: center;
+    display: grid;
+    place-content: center; */
+    top: 230px;
+    left: 590px;
+    width: 50%;
+    /* margin: auto; */
+}
+
+.text{
+    z-index: 3;
+}
+
+.app_text_heading{
+    font-size: 35px;
+    color: hsl(271, 36%, 24%);
+    font-weight: 400;
+    margin-bottom: 27px;
+    margin-left: 25px;
+}
+
+.app_text_info{
+    color: hsl(270, 7%, 64%);
+    font-size: 14.9px;
+    margin-left: 25px;
+    width: 62.9%;
+    line-height: 1.5em;
+}
+
+.abstraction{
+    width: 44%;
+    height: 24.5px;
+    border-radius: 20px;
+    z-index: 5;
+    background: white;
+    position: absolute;
+    top: -2.5px;
+    right: 61px;
+}
+
+.fa-circle-chevron-right{
+    color: black;
+    font-size: 23px;
+    z-index: 4;
+    transform: translate(165px,-29px);
+    /* position: fixed;
+    bottom: 10px;
+    left: 30px; */
+}
+
+/* .send-message{
+    display: flex;
+} */
+
+.price-circle{
+    /* opacity: 0.1; */
+    font-size: 9.5px;
+    color: rgba(0, 0, 0, 0);
+    margin-left: -2px;
+    border: 0.3px solid hsl(270, 3%, 76%);
+    border-radius: 100%;
+}
+
+ /* For Mobile */
+ @media only screen and (max-width: 375px) {
+    /* body {
+      background-color: lightblue;
+    } */
+
+    input{
+        width: 94%;
+
+    }
+
+    .left_div{
+        height: 55vh;
+        width: 160px;
+        border-radius: 0 0 180px 0;
+    }
+    
+    .right_div{
+        height: 50vh;
+        width: 170px;
+        border-radius: 180px 0 0 0;
+    }
+
+    .main-chat_screen{
+        top: 70px;
+        left: 70px;
+        height: 51.5vh;
+        background: white;
+    }
+
+    .secondary_screen{
+        height: 49.5vh;
+    }
+
+    .abstraction{
+        top: -1.6px;
+        width: 50%;
+        right: 58px;
+    }
+
+    .app_text{
+       
+        top: 600px;
+        left: 60px;
+        width: 85%;
+        /* text-align: center;
+        justify-content: center;
+        position: relative; */
+        /* margin: auto; */
+    }
+
+  
+    .app_text_heading{
+        font-size: 37px;
+        color: hsl(271, 36%, 24%);
+        font-weight: 500;
+        margin-bottom: 27px;
+        margin-left: -8px;
+    }
+
+    .app_text_info{
+        font-size: 17.1px;
+        margin-left: -13px;
+        width: 98.9%;
+        text-align: center;
+        font-weight: 300;
+        line-height: 1.5em;
+    }
+
+
+    .chat-1, .chat-2, .chat-3{
+        font-size: 8px;
+        width: 62%;
+        margin-top: 12.5px;
+        margin-bottom: 8.5px;
+    }
+
+    .price-2{
+        margin-bottom: 16.5px;
+    }
+    .dog-row{
+        margin-top: 12px;
+    }
+
+    ::placeholder{
+        font-size: 10px;
+    }
+
+  }
