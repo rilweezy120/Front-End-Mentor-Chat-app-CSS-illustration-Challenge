@@ -103,7 +103,7 @@ transform: translate(0px,6px);
     font-size: 8.8px;
 }
 
-#dog-row{
+.dog-row{
     display: inline-flex;
     flex-direction: row;
     justify-content: end;
@@ -529,7 +529,7 @@ input{
     }
 
    
-    #dog-row{
+    .dog-row{
         margin-top: 4.5px;
     }
     
