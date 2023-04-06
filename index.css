@@ -321,6 +321,27 @@ input{
     border-radius: 100%;
 }
 
+
+/* For Laptops */
+@media only screen and (max-width: 1024px) {
+
+    .main-chat_screen{
+        width: 248px;
+        height: 53.5vh;
+        top: 200px;
+        left: 290px;
+    }
+    
+    .secondary_screen{
+        width: 230px;
+        height: 51.72vh;
+    }
+
+}
+
+
+
+
  /* For Mobile */
  @media only screen and (max-width: 375px) {
     body{
