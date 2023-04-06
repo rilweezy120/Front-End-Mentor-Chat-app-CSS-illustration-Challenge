@@ -323,7 +323,7 @@ input{
 
 
 /* For Laptops */
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 950px) {
 
     .main-chat_screen{
         width: 248px;
@@ -339,7 +339,21 @@ input{
 
 }
 
+@media only screen and (min-width: 1080px) {
 
+    .main-chat_screen{
+        width: 248px;
+        height: 68vh;
+        top: 130px;
+        left: 290px;
+    }
+    
+    .secondary_screen{
+        width: 230px;
+        height: 65.72vh;
+    }
+
+}
 
 
  /* For Mobile */
