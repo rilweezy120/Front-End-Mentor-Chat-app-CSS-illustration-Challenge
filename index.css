@@ -6,7 +6,7 @@
 body{
     font-family: 'Rubik', sans-serif;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 18px;
     letter-spacing: .05px;
    
 }
@@ -29,12 +29,12 @@ i{
 
 .chat_header{
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     justify-content: space-between;
     background: linear-gradient(to left,hsl(293, 100%, 63%), hsl(264, 100%, 61%));
     width: 100%;
     border-radius: 12px 12px 3px 3px ;
-    padding: 12.5px 2px;
+    padding: 15.5px 2px;
 
     /* padding: 15px 13px; */
 }
@@ -61,8 +61,8 @@ i{
     height: auto;
     overflow: hidden;
     border: 1px solid white;
-    margin-left: 8px;
-    margin-top: 10px;
+    margin-left: -2.2em;
+    margin-top: 8.5px;
 }
 
 .details_profile{
@@ -87,29 +87,30 @@ transform: translate(0px,6px);
 
 .chat-1, .chat-2, .chat-3{
     background:  hsl(274, 51%, 92%);
-    width: 56%;
+    width: 58%;
     border: 1px solid hsl(274, 51%, 92%);
     border-radius: 7.5px 7.5px 7.5px 3.5px;
-    margin: 8px 0;
+    margin: 11px 0;
     margin-left: 6px;
-    font-size: 7.4px;
     color: hsl(276, 55%, 52%);
+    line-height: 1.5em;
     /* line-height: 1.4em; */
 }
 
 .chat_details{
-    width: 87%;
-    margin: 4px 3px;
+    width: 91%;
+    margin: 4px 4px;
+    font-size: 8.8px;
 }
 
 .dog-row{
     display: inline-flex;
     flex-direction: row;
     justify-content: end;
-    margin-top: 6px;
+    margin-top: 8px;
    
 }
-#dog-img{
+.dog-img{
     width: 17%;
     border-radius: 20%;
     margin-right: 8.5px;
@@ -123,27 +124,28 @@ transform: translate(0px,6px);
     border: 1px solid hsl(270, 20%, 96%);
     border-radius: 7.5px 7.5px 7.5px 3px;
     margin: 6px 0;
-    transform: translate(80px,0);
-    font-size: 8px;
+    transform: translate(90px,0);
+    font-size: 8.5px;
     color: hsl(271, 15%, 43%);
+    line-height: 1.5em;
     /* margin-left: 20px;
      */
 }
 
 .reply-2{
     width: 37%;
-    font-size: 8px;
+    font-size: 8.8px;
     background: white;
     border: 1px solid hsl(270, 20%, 96%);
     border-radius: 7.5px 7.5px 7.5px 3.5px;
     margin: 6.5px 0;
-    transform: translate(122px,0);
+    transform: translate(135px,0);
     color: hsl(271, 15%, 43%);
 }
 
 .reply_details{
     width: 94%;
-    margin: 4px 3.5px;
+    margin: 4px 3.8px;
 }
 
 .price-1, .price-2{
@@ -151,21 +153,22 @@ transform: translate(0px,6px);
     width: 68.5%;
     /* border: 1px solid hsl(270, 20%, 96%); */
     border-radius:7.5px 7.5px 7.5px 3.5px;
-    margin: 7.5px 0;
-    padding: 8px;
+    margin: 9.5px 0;
+    padding: 10.5px;
     display: flex;
     justify-content: space-between;
     margin-left: 6px;
+    /* font-size: 5em; */
 }
 
 .price-info{
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
+    /* flex-direction: row; */
 }
 
 .price-desc{
-    font-size: 7.2px;
+    font-size: 10.7px;
     color:  hsl(270, 20%, 96%);
     opacity: 0.7;
     margin-top: 2px;
@@ -177,17 +180,18 @@ transform: translate(0px,6px);
     font-size: 11.5px;
     margin-right: 10px;
     font-weight: 600;
+    letter-spacing: 1px;
 
 }
 
 
 input{
-    width: 91%;
+    width: 93%;
     border-radius: 25px;
     padding: 9px;
     border: 1px solid hsl(270, 20%, 96%);
-    margin-left: 6px;
-    font-size:  7px;
+    margin-left: 3px;
+    font-size:  10px;
     height: 34px;
 }
 
@@ -200,8 +204,8 @@ input{
 
 .left_div{
     position: fixed;
-    width: 300px;
-    height: 88vh;
+    width: 350px;
+    height: 75vh;
     background: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
     z-index: -100;
     border-radius: 0 0 180px 160px;
@@ -211,27 +215,28 @@ input{
 }
 
 .main-chat_screen{
-    max-width: 240px;
-    height: 75.5vh;
+    width: 248px;
+    height: 47.5vh;
     border-radius: 22px;
     padding: 0.1px 0;
     border: 1px solid hsl(270, 20%, 96%);
     position: fixed;
-    top: 90px;
-    left: 240px;
+    top: 260px;
+    left: 300px;
     font-size: 10px;
     font-weight: 300;
     background:hsl(0, 0%, 100%);
+    box-shadow: 7px -5.5px 6px -6px hsl(0, 2%, 45%);
 }
 
 .secondary_screen{
-   width: 210px;
-    height: 72.5vh;
+    width: 230px;
+    height: 45.72vh;
     border-radius: 15px;
     padding: 2px;
     /* border: 1px solid hsl(270, 20%, 96%); */
     border: none;
-    margin: 6.5px;
+    margin: 6.9px;
     background: hsl(270, 20%, 96%);
 }
 
@@ -239,10 +244,10 @@ input{
     background: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
    /* background: hsl(270, 3%, 76%); */
    position: fixed;
-   width: 320px;
-   height: 82vh;
+   width: 350px;
+   height: 75vh;
    z-index: 5;
-   border-radius: 180px 160px 0px 0px;
+   border-radius: 180px 150px 0px 0px;
    padding-bottom: 10px;
    bottom: 0;
    right: 0;
@@ -255,8 +260,8 @@ input{
     justify-content: center;
     display: grid;
     place-content: center; */
-    top: 230px;
-    left: 590px;
+    top: 430px;
+    left: 652px;
     width: 50%;
     /* margin: auto; */
 }
@@ -266,23 +271,24 @@ input{
 }
 
 .app_text_heading{
-    font-size: 35px;
+    font-size: 45px;
     color: hsl(271, 36%, 24%);
-    font-weight: 400;
+    font-weight: 600;
     margin-bottom: 27px;
     margin-left: 25px;
 }
 
 .app_text_info{
     color: hsl(270, 7%, 64%);
-    font-size: 14.9px;
+    font-size: 18px;
     margin-left: 25px;
-    width: 62.9%;
-    line-height: 1.5em;
+    width: 67.9%;
+    line-height: 1.6em;
+    font-weight: 500;
 }
 
 .abstraction{
-    width: 44%;
+    width: 54%;
     height: 24.5px;
     border-radius: 20px;
     z-index: 5;
@@ -296,7 +302,7 @@ input{
     color: black;
     font-size: 23px;
     z-index: 4;
-    transform: translate(165px,-29px);
+    transform: translate(182px,-29px);
     /* position: fixed;
     bottom: 10px;
     left: 30px; */
@@ -317,17 +323,75 @@ input{
 
  /* For Mobile */
  @media only screen and (max-width: 375px) {
-    /* body {
-      background-color: lightblue;
-    } */
+    body{
+        font-family: 'Rubik', sans-serif;
+        font-weight: 200;
+        font-size: 12px;
+        letter-spacing: .05px;
+       
+    }
+
+    i{
+        font-size: 7px;
+    }
+
+    .chat_header{
+        padding: 6.5px 0px 10.5px 0px;
+    }
+
+    .more-options{
+        display: inline-flex;
+        transform: translate(-10.5px, 15.5px);
+        font-size: 0.4px;
+    }
+
+    .fa-ellipsis-vertical{
+        opacity: 0.76;
+    }
+
+    .back-btn{
+        margin-left: 10px;
+        margin-top: 13px;
+    }
+    
+    .details_img>img{
+        border-radius: 100%;
+        width: 17px;
+        height: auto;
+        overflow: hidden;
+        border: 1px solid white;
+        margin-left: -0.6em;
+        margin-top: 6.5px;
+    }
+    
+    .details_profile{
+        margin-left: 5px;
+        margin-top: 7px;
+    }
+
+    .details_profile_name{
+        font-size: 7.7px;
+    }
+
+    .details_profile_desc{
+        font-size: 5.8px;
+    }
+
+    .chat_details{
+        width: 88%;
+        font-weight: 300;
+        color: hsl(276, 55%, 52%);
+        margin-right: 0.5px;
+        font-size: 6px;
+    }
 
     input{
         width: 94%;
-
+        height: 26px;
     }
 
     .left_div{
-        height: 55vh;
+        height: 68vh;
         width: 160px;
         border-radius: 0 0 180px 0;
     }
@@ -339,25 +403,30 @@ input{
     }
 
     .main-chat_screen{
-        top: 70px;
+        top: 35.5px;
         left: 70px;
-        height: 51.5vh;
+        height: 69.5vh;
         background: white;
+        width: 185px;
+        z-index: 2;
     }
 
     .secondary_screen{
-        height: 49.5vh;
+        height: 66.5vh;
+        width: 170px;
     }
 
     .abstraction{
-        top: -1.6px;
-        width: 50%;
-        right: 58px;
+        top: -1.1px;
+        width: 52%;
+        right: 44.7px;
+        height: 20.5px;
+        background-origin: 16px;
     }
 
     .app_text{
        
-        top: 600px;
+        top: 350px;
         left: 60px;
         width: 85%;
         /* text-align: center;
@@ -368,17 +437,18 @@ input{
 
   
     .app_text_heading{
-        font-size: 37px;
+        font-size: 22px;
         color: hsl(271, 36%, 24%);
         font-weight: 500;
-        margin-bottom: 27px;
-        margin-left: -8px;
+        margin-bottom: 4.5px;
+        margin-left: 8px;
+        margin-top: 28.7px;
     }
 
     .app_text_info{
-        font-size: 17.1px;
-        margin-left: -13px;
-        width: 98.9%;
+        font-size: 8.5px;
+        margin-left: 13px;
+        width: 48.9%;
         text-align: center;
         font-weight: 300;
         line-height: 1.5em;
@@ -386,21 +456,90 @@ input{
 
 
     .chat-1, .chat-2, .chat-3{
-        font-size: 8px;
-        width: 62%;
-        margin-top: 12.5px;
+        font-size: 5px;
+        width: 57%;
+        margin-top: 4.5px;
+        margin-bottom: 4.5px;
+        font-weight: 600;
+    }
+
+
+    .reply-1{
+        margin: 2px 0;
+        transform: translate(68px,0);
+        font-size: 6px;
+        font-weight: 400;
+    }
+    
+    .reply-2{
+        width: 36%;
+        font-size: 5.8px;
+        margin: 2.5px 0;
+        transform: translate(105px,0);
+        font-weight: 400;
+    }
+    
+    .reply_details{
+        width: 94%;
+        margin: 4px 3.8px;
+    }
+
+    .price-1, .price-2{
+        font-size: 5px;
+        padding: 5.5px 0.5px;
+        margin: 5px 0 5px 6px;
+    }
+
+     .price-2{
         margin-bottom: 8.5px;
     }
 
-    .price-2{
-        margin-bottom: 16.5px;
+    .price-desc{
+        font-size: 5.4px;
+        margin-top: 3.5px;
+        margin-left: 5px;
+        color: white;
+        opacity: 0.88;
     }
+    
+    .price{
+        font-size: 9px;
+        margin-right: 10px;
+        font-weight: 600;
+        letter-spacing: 0.05px;
+        margin-top: 2px;
+    }
+
+    .price-circle{
+        /* opacity: 0.1; */
+        font-size: 7.5px;
+        margin-left: 5px;
+        margin-top: 2px;
+    }
+
+    .fa-circle-chevron-right{
+        font-size: 23px;
+        transform: translate(182px,-29px);
+    }
+
+    .fa-circle-chevron-right{
+        font-size: 18px;
+        z-index: 4;
+        transform: translate(138px,-22px);
+    }
+
+   
     .dog-row{
-        margin-top: 12px;
+        margin-top: 4.5px;
+    }
+    
+    .dog-img{
+        margin-right: 4.5px;
+        margin-bottom: 0.5px;
     }
 
     ::placeholder{
-        font-size: 10px;
+        font-size: 7px;
     }
 
   }
